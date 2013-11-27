@@ -1,0 +1,54 @@
+<project>
+ <properties autorotation="3" encrypt="0" fps="60" scaleMode="3" mouseToTouch="1" iosDevice="0" packageName="com.yourdomain.yourapp" logicalHeight="800" logicalWidth="480" mouseTouchOrder="0" retinaDisplay="3" touchToMouse="1" assetsOnly="0" orientation="1" architecture="0">
+  <imageScales>
+   <scale suffix="@2" scale="2"/>
+  </imageScales>
+ </properties>
+ <folder name="levels">
+  <file source="levels/1-3.json"/>
+  <file source="levels/1-2.json"/>
+  <file source="levels/1-1.json"/>
+ </folder>
+ <folder name="objects">
+  <file source="objects/TouchBall.lua"/>
+  <file source="objects/MainBall.lua"/>
+ </folder>
+ <folder name="texturepacks">
+  <file source="texturepacks/LevelScene.txt"/>
+  <file source="texturepacks/LevelScene.png"/>
+ </folder>
+ <folder name="fonts">
+  <file source="fonts/deftone stylus.ttf"/>
+ </folder>
+ <folder name="scenes">
+  <file source="scenes/LevelSelectScene.lua"/>
+  <file source="scenes/StartScene.lua"/>
+  <file source="scenes/OptionsScene.lua"/>
+  <file source="scenes/LevelScene.lua"/>
+  <file source="scenes/AboutScene.lua"/>
+ </folder>
+ <folder name="classes">
+  <file source="classes/GameManager.lua"/>
+  <file source="classes/Settings.lua"/>
+  <file source="classes/json.lua"/>
+  <file source="classes/dataSaver.lua"/>
+  <file source="classes/TextWrap.lua"/>
+  <file source="classes/easing.lua"/>
+  <file source="classes/scenemanager.lua"/>
+  <file source="classes/Button.lua"/>
+ </folder>
+ <folder name="images">
+  <file source="images/right.png"/>
+  <file source="images/left.png"/>
+  <file source="images/level_unlocked.png"/>
+  <file source="images/level_locked.png"/>
+  <file source="images/logo.png"/>
+  <file source="images/bg.jpg"/>
+  <file source="images/testbg.png"/>
+  <file source="images/ball.png"/>
+ </folder>
+ <file source="test.lua" excludeFromExecution="1"/>
+ <file source="main.lua"/>
+ <file source="packs.lua"/>
+ <file source="config.lua"/>
+</project>

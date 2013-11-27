@@ -1,0 +1,36 @@
+print("Hello world!")
+
+local text = TextField.new(nil, "This is a simple text")
+text:setPosition(10, 20)
+text:setScale(2)
+stage:addChild(text)
+
+local texture = Texture.new("images/ball.png", true)
+local image = Bitmap.new(texture)
+image:setPosition(40, 40)
+image:setAnchorPoint(0.5, 0.5)
+stage:addChild(image)
+
+local shape = Shape.new()
+shape:setLineStyle(5, 0xff0000, 1)
+shape:setFillStyle(Shape.SOLID, 0x0000ff, 0.5)
+shape:beginPath()
+shape:moveTo(0,0)
+shape:lineTo(0, 100)
+shape:lineTo(100, 100)
+shape:lineTo(100, 0)
+shape:closePath()
+shape:endPath()
+shape:setPosition(40, 40)
+stage:addChild(shape)
+
+local group = Sprite.new()
+group:addChild(text)
+group:addChild(image)
+group:addChild(shape)
+
+stage:addChild(group)
+group:setPosition(100, 100)
+
+local bottomLayer = Sprite.new()
+stage:addChildAt(bottomLayer, 1)

@@ -1,0 +1,29 @@
+<library>
+ <properties forceSquare="0" alphaThreshold="0" extrude="0" padding="1" showUnusedAreas="0" removeAlphaBorder="0"/>
+ <file file="sources/resume.png"/>
+ <file file="sources/touched12.png"/>
+ <file file="sources/touched11.png"/>
+ <file file="sources/touched10.png"/>
+ <file file="sources/touched9.png"/>
+ <file file="sources/touched8.png"/>
+ <file file="sources/touched7.png"/>
+ <file file="sources/touched6.png"/>
+ <file file="sources/touched5.png"/>
+ <file file="sources/touched4.png"/>
+ <file file="sources/touched3.png"/>
+ <file file="sources/touched2.png"/>
+ <file file="sources/touched1.png"/>
+ <file file="sources/touch6.png"/>
+ <file file="sources/touch5.png"/>
+ <file file="sources/touch4.png"/>
+ <file file="sources/touch3.png"/>
+ <file file="sources/touch2.png"/>
+ <file file="sources/touch1a.png"/>
+ <file file="sources/touch1.png"/>
+ <file file="sources/touch0a.png"/>
+ <file file="sources/touch0.png"/>
+ <file file="sources/restart.png"/>
+ <file file="sources/menu.png"/>
+ <file file="sources/main2.png"/>
+ <file file="sources/main1.png"/>
+</library>
